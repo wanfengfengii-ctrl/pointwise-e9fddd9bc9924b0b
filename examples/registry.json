@@ -1,0 +1,5 @@
+{
+  "partitions": ["甲", "乙"],
+  "sources": [["甲表", "甲"], ["乙表", "乙"]],
+  "classifications": [["甲", "cooling"], ["甲", "storm"], ["乙", "cooling"], ["乙", "effluent"]]
+}

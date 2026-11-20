@@ -1,0 +1,13 @@
+{
+  "batches": [
+    {"partition": "甲", "source": "甲表", "batch": "甲早班", "readings": [["cooling", 7], ["cooling", 7], ["cooling", 0]]},
+    {"partition": "乙", "source": "乙表", "batch": "乙早班", "readings": [["effluent", 4]]}
+  ],
+  "amendment": {"partition": "甲", "position": 1, "expected_liters": 7, "category": "cooling", "liters": 8},
+  "issues": [
+    {"partition": "甲", "revision": 1, "snapshot_id": "甲固定1", "release_id": "甲件1"},
+    {"partition": "甲", "revision": 2, "snapshot_id": "甲固定2", "release_id": "甲件2"},
+    {"partition": "乙", "revision": 1, "snapshot_id": "乙固定1", "release_id": "乙件1"}
+  ],
+  "delivery_order": ["甲件2", "乙件1", "甲件1"]
+}
